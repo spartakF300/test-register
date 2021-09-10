@@ -1,0 +1,148 @@
+.register{
+  max-width: 460px;
+  min-width: 360px;
+  background: #FFFFFF;
+  box-shadow: 0 12px 24px rgba(44, 39, 56, 0.02), 0 32px 64px rgba(44, 39, 56, 0.04);
+  border-radius: 24px;
+  margin: auto;
+  padding: 40px 0;
+  &__title{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    color: #2C2738;
+  }
+  &__sub-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size:16px;
+    line-height:22px;
+    color: #2C2738;
+  }
+  &__sub-link{
+    margin-left: 6px;
+    color: #0880AE;
+    text-decoration: none;
+  }
+  &__label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #756F86;
+    margin-top: 34px;
+    margin-bottom: 6px;
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+  }
+  &__input{
+    height: 52px;
+    min-height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #DBE2EA;
+    box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04);
+    border-radius:6px;
+    padding: 0 16px;
+
+  }
+  &__input::placeholder{
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #7C9CBF;
+  }
+  &__input:focus-visible{
+    outline:none;
+    border: 2px solid #0880AE!important;
+  }
+
+  &__select{
+    -webkit-appearance: none;
+    background: url("../assets/arrow.svg") no-repeat 95% 50%;
+  }
+  &__select{
+    -webkit-appearance: none;
+    background: url("../assets/arrow.svg") no-repeat 95% 50%;
+    background-size: 5% 25%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7C9CBF;
+
+  }
+  &__option{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #756F86;
+  }
+  &__option:hover{
+    background: #EBF4F8;
+  }
+  &__checkbox-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 34px;
+  }
+  &__checkbox{
+    width: 28px;
+    height: 28px;
+    background: #FFFFFF;
+    border: 1px solid #DBE2EA;
+    box-shadow:  4px 8px rgba(44, 39, 56, 0.04);
+    border-radius: 4px;
+    margin-right: 8px;
+    -webkit-appearance: none;
+    position: relative;
+  }
+
+  &__checkbox:checked{
+    background: url("../assets/mark.svg") no-repeat center center #fff;
+    background-size: 80% 80%;
+    border: 2px solid #0880AE;
+    color: #99a1a7;
+  }
+  &__checkbox-label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #756F86;
+  }
+  &__checkbox-link{
+    color: #0880AE;
+    text-decoration: none;
+  }
+  &__btn{
+    background: #0880AE;
+    box-shadow: 0 2px 4px rgba(44, 39, 56, 0.08), 0 4px 8px rgba(44, 39, 56, 0.08);
+    border-radius: 6px;
+    height: 56px;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color:  #EBF4F8;
+
+}
+  &__error{
+    margin-top: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FF7171;
+  }
+  &__disabled{
+    background: #DBE2EA;
+    color: #B1B5BF;
+  }
+}
